@@ -1,0 +1,26 @@
+{
+    "name": "Budget Champ",
+    "short_name": "B Champ",
+    "icons": [
+        {
+            "src": "auto/assets/icons/icon_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "auto/assets/icons/icon_384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "auto/assets/icons/icon_256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#01579b",
+    "start_url": "../index.html",
+    "display": "standalone",
+    "description": "An app that allows you to track your spending."
+}
