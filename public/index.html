@@ -42,11 +42,21 @@
 
     <canvas id="myChart"></canvas>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="js/idb.js"></script>
   <script src="js/index.js"></script>
-  <!-- Did I add this correctly into the correct HTML? -->
-  <script src="./assets/js/idb.js"></script>
+  <script type="text/javascript">
+    (function () {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./service-worker.js")
+          .then(() => console.log("Service Worker registered successfully."))
+          .catch(error =>
+            console.log("Service Worker registration failed:", error)
+          );
+      }
+    })();
+  </script>
 </body>
 
 </html>

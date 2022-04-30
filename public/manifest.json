@@ -3,13 +3,13 @@
     "short_name": "B Champ",
     "icons": [
         {
-            "src": "auto/assets/icons/icon_512x512.png",
-            "sizes": "512x512",
+            "src": "./icons/icon-72x72.png",
+            "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "auto/assets/icons/icon_384x384.png",
-            "sizes": "384x384",
+            "src": "",
+            "sizes": "",
             "type": "image/png"
         },
         {
