@@ -8,11 +8,6 @@
             "type": "image/png"
         },
         {
-            "src": "",
-            "sizes": "",
-            "type": "image/png"
-        },
-        {
             "src": "auto/assets/icons/icon_256x256.png",
             "sizes": "256x256",
             "type": "image/png"
